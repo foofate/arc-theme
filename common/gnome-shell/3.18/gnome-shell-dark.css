@@ -691,7 +691,7 @@ StScrollBar {
       border-color: transparent; }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
       color: #ffffff;
-      background-color: #5294e2;
+      background-color: rgba(0, 0, 0, 0);
       box-shadow: none;
       border-bottom-width: 1px;
       border-color: black; }
@@ -791,7 +791,9 @@ StScrollBar {
   padding: 0.75em 1.0em; }
 
 .calendar {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  background-color: #444a58;
+  border: 1px solid #2b2e39; }
 
 .calendar,
 .datemenu-today-button,
